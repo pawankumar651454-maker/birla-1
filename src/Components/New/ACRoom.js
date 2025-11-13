@@ -57,7 +57,7 @@ const ACRoom = ({ phone }) => {
     >
       <div className="h-[65%] flex items-center flex-col lg:flex-row p-2">
         <div className="acroom-images h-full w-full md:w-[80%] lg:w-1/2 p-2">
-          <img
+          <img alt="a"
             src="/New/ACRoom1.avif"
             className="h-full w-full object-cover rounded-xl"
           />
@@ -65,13 +65,13 @@ const ACRoom = ({ phone }) => {
         <div className="h-full w-full md:w-[80%] lg:w-1/2 flex flex-col p-1">
           <div className="h-1/2 w-full flex">
             <div className="acroom-images h-full w-1/2 p-1">
-              <img
+              <img alt="a"
                 src="/New/ACRoom2.avif"
                 className="h-full w-full object-cover rounded-xl"
               />
             </div>
             <div className="acroom-images h-full w-1/2 p-1">
-              <img
+              <img alt="a"
                 src="/New/ACRoom3.avif"
                 className="h-full w-full object-cover rounded-xl"
               />
@@ -79,13 +79,13 @@ const ACRoom = ({ phone }) => {
           </div>
           <div className="h-1/2 w-full flex">
             <div className="acroom-images h-full w-1/2 p-1">
-              <img
+              <img alt="a"
                 src="/New/ACRoom4.avif"
                 className="h-full w-full object-cover rounded-xl"
               />
             </div>
             <div className="acroom-images h-full w-1/2 p-1">
-              <img
+              <img alt="a"
                 src="/New/ACRoom5.avif"
                 className="h-full w-full object-cover rounded-xl"
               />
