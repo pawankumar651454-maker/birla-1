@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 import HomeImageComponent from "./Components/New/HomeImageComponent";
-import JayShreeRam from "./Components/JayShreeRam";
-import RoomPricingComponent from "./Components/RoomPricingComponent";
-import GalleryComponent from "./Components/GalleryComponent";
-import BirlaDharamshala from "./Components/BirlaDharamshala";
+// import JayShreeRam from "./Components/JayShreeRam";
+// import RoomPricingComponent from "./Components/RoomPricingComponent";
+// import GalleryComponent from "./Components/GalleryComponent";
+// import BirlaDharamshala from "./Components/BirlaDharamshala";
 
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -23,6 +23,8 @@ import Layout from "./Layout";
 
 const App = () => {
   const [phone, setPhone] = useState("+917568117419");
+
+  
   return (
     <BrowserRouter>
       <Routes>
@@ -32,7 +34,7 @@ const App = () => {
             element={
               <div className="relative w-full overflow-hidden">
                 {/* <Nav /> */}
-                <HomeImageComponent phone={phone} />
+                <HomeImageComponent phone={phone} setPhone={setPhone} />
                 <AffordableRoomPage phone={phone} />
                 <AffordableRoomPage2 />
                 <ACRoom phone={phone} />
