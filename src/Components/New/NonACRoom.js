@@ -123,7 +123,7 @@ const NonACRoom = ({phone}) => {
       >
         <div className="h-[65%] flex items-center flex-col lg:flex-row p-2">
           <div className="h-full w-full md:w-[80%] lg:w-1/2 p-2 image">
-            <img
+            <img alt="a"
               src="/New/NonACRoom1.avif"
               className="h-full w-full object-cover rounded-xl"
             />
@@ -131,13 +131,13 @@ const NonACRoom = ({phone}) => {
           <div className="h-full w-full md:w-[80%] lg:w-1/2 flex flex-col p-1">
             <div className="h-1/2 w-full flex">
               <div className="h-full w-1/2 p-1 image">
-                <img
+                <img alt="a"
                   src="/New/NonACRoom2.avif"
                   className="h-full w-full object-cover rounded-xl"
                 />
               </div>
               <div className="h-full w-1/2 p-1 image">
-                <img
+                <img alt="a"
                   src="/New/NonACRoom3.avif"
                   className="h-full w-full object-cover rounded-xl"
                 />
@@ -145,13 +145,13 @@ const NonACRoom = ({phone}) => {
             </div>
             <div className="h-1/2 w-full flex">
               <div className="h-full w-1/2 p-1 image">
-                <img
+                <img alt="a"
                   src="/New/NonACRoom4.avif"
                   className="h-full w-full object-cover rounded-xl"
                 />
               </div>
               <div className="h-full w-1/2 p-1 image">
-                <img
+                <img alt="a"
                   src="/New/NonACRoom5.avif"
                   className="h-full w-full object-cover rounded-xl"
                 />
