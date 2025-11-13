@@ -40,7 +40,7 @@ const Nav = () => {
   return (
     <nav className="h-[100px] px-6 py-6 flex justify-between items-center gap-4 relative">
       <div ref={logoRef} className="flex gap-2 justify-center items-center">
-        <img
+        <img alt="a"
           src="logo2.jpeg"
           className="h-[50px] aspect-[1/1] object-contain my-auto rounded-full"
         />
