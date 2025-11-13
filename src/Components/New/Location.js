@@ -90,7 +90,6 @@ const Location = ({phone}) => {
       </div>
       <div className="w-full md:w-1/2 p-6 mb-10">
         <iframe
-title="abc"
           ref={mapRef}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82372.58550154182!2d82.15441324630828!3d26.791719441310143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a07ecdf27cc41%3A0x7c9bd8b0b273a80f!2sBirla%20Dharamshala!5e0!3m2!1sen!2sus!4v1738317392182!5m2!1sen!2sus"
           width="600"
@@ -99,6 +98,7 @@ title="abc"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           className="w-full h-[200px] sm:h-[400px]"
+            title="Map showing Birla Dharamshala location"
         ></iframe>
       </div>
     </div>
