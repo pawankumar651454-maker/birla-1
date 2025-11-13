@@ -140,7 +140,7 @@ const Services = () => {
               className="h-full w-[80%] lg:w-[29%] aspect-[4/6] md:aspect-[4/5] rounded-b-3xl lg:rounded-b-0 rounded-t-3xl flex flex-col min-[445px]:flex-row lg:flex-col bg-white overflow-hidden"
             >
               <div className="w-full min-[445px]:w-1/2 lg:w-full h-1/2 min-[445px]:h-full lg:h-[60%]">
-                <img src={card.imgSrc} className="h-full w-full object-cover" />
+                <img alt="a" src={card.imgSrc} className="h-full w-full object-cover" />
               </div>
               <div className="h-full w-full min-[445px]:w-1/2 lg:w-full lg:h-[40%] flex flex-col justify-center items-center gap-3 p-6 ">
                 <h4 className="text-xl font-semibold">{card.title}</h4>
