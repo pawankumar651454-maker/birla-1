@@ -53,7 +53,7 @@ const HomeImageComponent = ({phone}) => {
 
   return (
     <div className="w-full aspect-[16/40] min-[425px]:aspect-[16/32] sm:aspect-[16/20] md:aspect-[16/9] relative">
-      <img
+      <img alt="a"
         ref={imageRef}
         src="/New/home1.webp"
         className="w-full h-full object-cover"
