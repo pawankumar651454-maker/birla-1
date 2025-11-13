@@ -102,13 +102,13 @@ const Rooms = () => {
         <div className="h-[60vh] sm:h-[90vh] px-0 sm:px-6 md:px-20 mb-10">
           <div className="h-1/2 flex justify-evenly py-2">
             <div className="w-[45%] sm:w-[32%] h-full bg-zinc-200 rounded-3xl overflow-hidden">
-              <img
+              <img alt="a"
                 src="/New/comfortableRoom1.avif"
                 className="h-full w-full object-cover"
               />
             </div>
             <div className="w-[45%] sm:w-[64%] h-full bg-zinc-200 rounded-3xl overflow-hidden">
-              <img
+              <img alt="a"
                 src="/New/comfortableRoom2.avif"
                 className="h-full w-full object-cover"
               />
@@ -116,13 +116,13 @@ const Rooms = () => {
           </div>
           <div className="h-1/2 flex justify-evenly py-2">
             <div className="w-[45%] sm:w-[64%] h-full bg-zinc-200 rounded-3xl overflow-hidden">
-              <img
+              <img alt="a"
                 src="/New/comfortableRoom3.avif"
                 className="h-full w-full object-cover"
               />
             </div>
             <div className="w-[45%] sm:w-[32%] h-full bg-zinc-200 rounded-3xl overflow-hidden">
-              <img
+              <img alt="a"
                 src="/New/comfortableRoom4.avif"
                 className="h-full w-full object-cover"
               />
