@@ -83,7 +83,7 @@ const Review = () => {
     <div ref={reviewRef} className="p-6 md:p-20">
       <div className="h-[80vh] md:h-[50vh] bg-[#a67c52] flex md:flex-row flex-col">
         <div className="w-full md:w-1/2 h-1/2 md:h-auto review-image">
-          <img
+          <img alt="a"
             src="/New/reviewImg.avif"
             className="h-full w-full object-cover"
           />
