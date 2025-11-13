@@ -9,10 +9,10 @@ const JayShreeRam = () => {
         </div>
         <div className="h-[92%] flex flex-col sm:flex-row justify-between">
           <div className=" h-[50%] sm:h-full w-full sm:w-[48%]">
-            <img src="mandir1.webp" className="h-full w-full object-cover" />
+            <img alt="a" src="mandir1.webp" className="h-full w-full object-cover" />
           </div>
           <div className="h-[50%] sm:h-full w-full sm:w-[48%]">
-            <img src="mandir2.webp" className="h-full w-full object-cover" />
+            <img alt="a" src="mandir2.webp" className="h-full w-full object-cover" />
           </div>
         </div>
       </div>
