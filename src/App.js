@@ -22,7 +22,7 @@ import Location from "./Components/New/Location";
 import Layout from "./Layout";
 
 const App = () => {
-  const [phone, setPhone] = useState("+919358998106");
+  const [phone, setPhone] = useState("+919376495183");
 
   
   return (
