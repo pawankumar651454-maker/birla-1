@@ -81,11 +81,7 @@ const Footer = ({phone}) => {
           <p className="text-sm">info@birladharamshala.com</p>
         </div>
 
-        {/* End Section */}
-        <div className="footer-middle flex flex-col items-start justify-center md:items-center">
-          <p className="text-sm">&copy; 2024. All rights reserved.</p>
-          <p className="text-sm">powered by gowappilyinfotech</p>
-        </div>
+  
       </div>
     </footer>
   );
